@@ -1,4 +1,4 @@
-# etsysearch
+# Etsy Search
 Hides result set items from the search result that have specific words.
 
 I'm not a coder so this is a WIP. 
