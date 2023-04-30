@@ -3,7 +3,7 @@
   "version": "1.0",
   "manifest_version": 3,
   "content_scripts": [{
-    "matches": ["https://www.etsy.com/*"],
+    "matches": ["https://www.etsy.com/search?q=*"],
     "js": ["your_script.js"]
   }]
 }
