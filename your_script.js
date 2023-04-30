@@ -13,8 +13,8 @@ var links = document.getElementsByTagName('a');
 for (var i = 0; i < links.length; i++) {
   var link = links[i];
 
-  // Check if the link's Title property contains the substring 'starter' in any case
-  if (link.title && link.title.match(/starter/i)) {
+  // Check if the link's Title property contains the word 'starter' in any case
+  if (link.title && /\bstarter\b/i.test(link.title)) {
     // Hide the link's parent
     link.parentElement.style.setProperty('display', 'none', 'important');
   }
