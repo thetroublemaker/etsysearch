@@ -18,7 +18,7 @@ Feel free to take wha I have and run with it it; would love to add a settings UI
 
 Bugs:
 
-1. Will not work once a filter is applied; at this point you'd have to refresh the page; the filter would still be applied, and the script would fire correctly.
+1. Will not work once a filter is applied; at this point, you'd have to refresh the page; the filter would still be applied, and the script would fire correctly.
 2. Will not fire if you click the 'next' or the number pagination control; to fire, reload like in step 1.
 
-Not sur what the difference is between a full innitial load and the load when you click the filter control or the pagination control.
+Not sure what the difference is between a full initial load and the load when you click the filter control or the pagination control.
